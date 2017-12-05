@@ -1,0 +1,4 @@
+---
+sonar_db_user: 'sonar'
+sonar_db_password: 'sonar'
+sonar_uri: 'jdbc:postgresql://db:5432/sonar'

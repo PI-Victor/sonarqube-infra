@@ -1,0 +1,7 @@
+---
+- name: Install docker-compose in virtualenv
+  pip:
+    name: docker-compose
+    virtualenv: /tmp/.venv
+
+- include: sonar-compose.yaml
